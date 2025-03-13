@@ -18,8 +18,6 @@ class Song # Se define la clase
     end
 end
 
-my_song = Song.new("Infierno", "Yung beef", "3.45")
-
 #puts my_song.artist
 #my_song.artist = "Lana del Rey"
 #puts my_song.artist
@@ -27,4 +25,17 @@ my_song = Song.new("Infierno", "Yung beef", "3.45")
 # El bloque superior arroja error
 
 class KaraokeSong < Song # usa < para herencia
-    
+    def initialize (name, artist, duration, lyrics)
+        super(name, artist, duration) # Llama al constructor de la clase padre
+        @lyrics = lyrics
+    end
+
+    def to_s # Sobreescribimos to_s
+        super + " [#{@lyrics}]"
+    end
+end
+
+my_song = Song.new("Infierno", "Yung beef", "3.45")
+karaoke_song = KaraokeSong.new("Infierno", "Yung beef", "3.45", "Letra de la cancion")
+
+puts karaoke_song
