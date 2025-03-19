@@ -1,0 +1,56 @@
+Extreme programming
+
+Conjunto de buenas practicas:
+- Pruebas de clientes
+- Entregas pequeñas (entregas de 1 semana)
+- Programación en parejas (Uno programa y el otro, viendo el trabajo, va dando ideas)
+- Desarrollo guiado por pruebas (TDD)
+    Uno se complica mucho con casos bordes, no es del todo necesario. 
+    Primero definir que hace tu codigo
+    Luego escribes los tests
+    Ahora recien se escribe el codigo listo para pasar los tests
+    -> Si no esta en los tests, no es importante, aunque sea necesario crear muchos tests
+- Propiedad colectiva del codigo
+- Integracion continua
+- Ritmo de trabajo sostenible
+- Estandar de codigo
+
+Las empresas grandes usan SCRUM
+
+Como nacio SCRUM?:
+    De un paper que buscaba la metodologia de empresas exitosas
+
+SCRUM PROCESS:
+1. Product Backlog:
+    Todas las tareas que se deben hacer. Normalmente se sabe que se quiere hacer, pero no se esta definido que viene primero.
+    Se ordena el proceso de desarrollo en base a las entregas proximas
+
+2. Sprint Planning Meeting:
+    Participa todo el equipo de SCRUM, todos los diferentes roles (quien organiza, quien desarrolla, quien asesora)
+    - Se define el objetivo del Sprint
+    - Crear el SPRINT Backlog:
+        Es super acotado, un objetivo chico.
+        TO DO | DOING | DONE
+    - Elaborar un PLAN
+
+3. Sprint Backlog:
+    Aqui no solo participan los de desarrollo, sino el cliente (stakeholders)
+    Si no se llegar a concenso, la ultima decision la toma el Product Owner, respecto a que es lo más importante a desarrollar a corto plazo
+    Generar error logs.
+
+Sprint:
+    Evento de longitud fija, comunmente entre 2 a 4 semanas.
+    - Input:
+        El objetivo del Sprint.
+        Items seleccionados del product Backlog
+        Conjunto de tareas del sprint Backlog
+    -Output:
+        Incremento al producto o valor agregado existente
+        Paso listo (Cumple DoD) que contribuye al Product Goal
+
+4. Daily Scrum:
+    Proceso de 24hrs. Se toma el objetivo mas proximo y se realiza.
+
+5. Daily Meeting:
+    Reunion corta de 15m aprox. Debe ser productiva, por esto es que es corta.
+    Que  hice ayer? Que hare hoy? tuve algun impedimento o complicacion (stopper)?
